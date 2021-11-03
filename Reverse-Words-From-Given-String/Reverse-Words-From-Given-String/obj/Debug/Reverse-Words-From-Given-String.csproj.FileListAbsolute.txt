@@ -1,0 +1,7 @@
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\bin\Debug\Reverse-Words-From-Given-String.exe.config
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\bin\Debug\Reverse-Words-From-Given-String.exe
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\bin\Debug\Reverse-Words-From-Given-String.pdb
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\obj\Debug\Reverse-Words-From-Given-String.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\obj\Debug\Reverse-Words-From-Given-String.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\obj\Debug\Reverse-Words-From-Given-String.exe
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Reverse-Words-From-Given-String\Reverse-Words-From-Given-String\obj\Debug\Reverse-Words-From-Given-String.pdb
