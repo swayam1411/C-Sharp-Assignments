@@ -1,0 +1,14 @@
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.exe
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.deps.json
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.runtimeconfig.json
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.runtimeconfig.dev.json
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.dll
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\bin\Debug\netcoreapp3.1\Calculate_Result.pdb
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.AssemblyInfoInputs.cache
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.AssemblyInfo.cs
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.dll
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.pdb
+C:\Users\Computer\Desktop\GitHub\C-Sharp-Assignments\Calculate_Result\Calculate_Result\obj\Debug\netcoreapp3.1\Calculate_Result.genruntimeconfig.cache
