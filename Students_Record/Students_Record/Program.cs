@@ -61,7 +61,6 @@ namespace Students_Record
 
                 Console.Write("Enter Your Choice: ");
                 choice = Convert.ToInt32(Console.ReadLine());
-
                 switch(choice)
                 {
                     case 1:
