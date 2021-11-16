@@ -24,8 +24,8 @@ namespace Students_Record
         {
             Dictionary<int, List<Student>> record = new Dictionary<int, List<Student>>()
             {
-                {1 , students.Where(s => s.gender == (Gender)1).ToList()},
-                {2 , students.Where(s => s.gender == (Gender)2).ToList()},
+                {1 , students.Where(s => s.gender == Gender.girl).ToList()},
+                {2 , students.Where(s => s.gender == Gender.boy).ToList()},
                 {3 , students.OrderBy(s => s.Class).ToList()}
             };
 
