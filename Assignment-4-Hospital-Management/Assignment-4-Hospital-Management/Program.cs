@@ -6,13 +6,13 @@ namespace HospitalManagement
     {
         public static void AddPatient()
         {
-            Console.WriteLine("\nEnter Patient's Full Name => ");
+            Console.WriteLine("\nEnter Patient's Full Name:");
             string patientName = Console.ReadLine();
-            Console.WriteLine("Enter Symptoms => ");
+            Console.WriteLine("Enter Symptoms:");
             string symptoms = Console.ReadLine();
-            Console.WriteLine("Enter Treatment => ");
+            Console.WriteLine("Enter Treatment:");
             string treatment = Console.ReadLine();
-            Console.WriteLine("Enter Doctor Name => ");
+            Console.WriteLine("Enter Doctor Name:");
             string doctorName = Console.ReadLine();
             string date = DateTime.Now.ToString("dd-MM-yyyy");
             string filePath = @"C:\Users\Computer\Desktop\GitHub\" + patientName + ".txt";
@@ -21,7 +21,7 @@ namespace HospitalManagement
                 using (StreamWriter insertInFile = File.CreateText(filePath))
                 {
                     insertInFile.WriteLine(patientName + "\t" + symptoms + "\t" + treatment + "\t" + doctorName + "\t" + date);
-                    Console.WriteLine("Patient's record added Sucessfully..!!\n");
+                    Console.WriteLine("Patient's record added Sucessfully\n");
                 }
             }
             else
@@ -29,13 +29,13 @@ namespace HospitalManagement
                 using (StreamWriter insertInFile = File.AppendText(filePath))
                 {
                     insertInFile.WriteLine(patientName + "\t" + symptoms + "\t" + treatment + "\t" + doctorName + "\t" + date);
-                    Console.WriteLine("Patient's record is Updated Sucessfully..!!\n");
+                    Console.WriteLine("Patient's record is Updated Sucessfully\n");
                 }
             }
         }
         public static void DisplayPatient()
         {
-            Console.WriteLine("\nEnter Patient's Full Name=>");
+            Console.WriteLine("\nEnter Patient's Full Name:");
             string patientName = Console.ReadLine();
             string filePath = @"C:\Users\Computer\Desktop\GitHub\" + patientName + ".txt";
             if (File.Exists(filePath))
@@ -56,7 +56,7 @@ namespace HospitalManagement
                 Console.WriteLine("\n1:Add Patient Details");
                 Console.WriteLine("2:Display Patient Details");
                 Console.WriteLine("0:Exit");
-                Console.Write("Enter Your Choice =>");
+                Console.Write("Enter Your Choice:");
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -67,7 +67,7 @@ namespace HospitalManagement
                         DisplayPatient();
                         break;
                     case 0:
-                        Console.WriteLine("Thank You..!!");
+                        Console.WriteLine("Thank You");
                         break;
                     default:
                         Console.WriteLine("Invalid Choice");
