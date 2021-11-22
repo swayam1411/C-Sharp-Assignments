@@ -29,7 +29,7 @@ namespace HospitalManagement
                 using (StreamWriter insertInFile = File.AppendText(filePath))
                 {
                     insertInFile.WriteLine(patientName + "\t" + symptoms + "\t" + treatment + "\t" + doctorName + "\t" + date);
-                    Console.WriteLine("Patient's another record is added Sucessfully..!!\n");
+                    Console.WriteLine("Patient's record is Updated Sucessfully..!!\n");
                 }
             }
         }
@@ -46,7 +46,7 @@ namespace HospitalManagement
                 Console.WriteLine("******************************************");
             }
             else
-                Console.WriteLine($"Their is no Record For {patientname} Patient\n");
+                Console.WriteLine($"Their is no Record For {patientName} Patient\n");
         }
         static void Main(string[] args)
         {
