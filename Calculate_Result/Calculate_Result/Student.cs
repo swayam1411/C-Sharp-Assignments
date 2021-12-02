@@ -2,14 +2,14 @@
 {
     class Student
     {
-        public string Name;
-        public string Exam;
-        public double PERCENTAGE;
-        public Student(string Name , string Exam, double PERCENTAGE)
+        public string name;
+        public string exam;
+        public double percentage;
+        public Student(string name , string exam, double percentage)
         {
-            this.Name = Name;
-            this.Exam = Exam;
-            this.PERCENTAGE = PERCENTAGE;
+            this.name = name;
+            this.exam = exam;
+            this.percentage = percentage;
         }
     }
 }
