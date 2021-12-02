@@ -15,7 +15,7 @@ namespace Calculate_Result
                 subjectArr[i] = Convert.ToInt32(Console.ReadLine());
             }
             int total = subjectArr.Sum();
-            double percentage = otal / 5;
+            double percentage = total / 5;
             return percentage;
         }
     }
