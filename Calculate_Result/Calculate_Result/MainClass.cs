@@ -11,43 +11,43 @@ namespace Calculate_Result
             IResultInterface IObject;
             
             Console.Write("Enter Student Name => ");
-            string Name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.Write("Enter Class Name from (SSC/NIIT/IIT) => ");
-            string Exam = Console.ReadLine();
-            if (Exam == "SSC")
+            string exam = Console.ReadLine();
+            if (exam == "SSC")
             {
-                IObject = new SSCResult();
-                double PERCENTAGE = IObject.CalculateResult();
-                Students.Add(new Student(Name, Exam, PERCENTAGE));
+                IObject = new SscResult();
+                double percentage = IObject.CalculateResult();
+                Students.Add(new Student(name, exam, percentage));
             }
-            else if (Exam == "NIIT")
+            else if (exam == "NIIT")
             {
-                IObject = new NIITResult();
-                double PERCENTAGE = IObject.CalculateResult();
-                Students.Add(new Student(Name, Exam, PERCENTAGE));
+                IObject = new NiitResult();
+                double percentage = IObject.CalculateResult();
+                Students.Add(new Student(name, exam, percentage));
             }
-            else if (Exam == "IIT")
+            else if (exam == "IIT")
             {
-                IObject = new IITResult();
-                double PERCENTAGE = IObject.CalculateResult();
-                Students.Add(new Student(Name, Exam, PERCENTAGE));
+                IObject = new IitResult();
+                double percentage = IObject.CalculateResult();
+                Students.Add(new Student(name, exam, percentage));
             }
         }
 
         public static void DisplayStudent(List<Student> Students)
         {
-            Dictionary<string, List<Student>> Record = new Dictionary<string, List<Student>>()
+            Dictionary<string, List<Student>> record = new Dictionary<string, List<Student>>()
                         {
-                            { "SSC" ,Students.Where(s => s.Exam == "SSC").ToList() },
-                            { "NIIT" , Students.Where(s => s.Exam == "NIIT").ToList() },
-                            { "IIT" , Students.Where(s => s.Exam == "IIT").ToList() }
+                            { "SSC" ,Students.Where(s => s.exam == "SSC").ToList() },
+                            { "NIIT" , Students.Where(s => s.exam == "NIIT").ToList() },
+                            { "IIT" , Students.Where(s => s.exam == "IIT").ToList() }
                         };
-            foreach (var Key in Record)
+            foreach (var Key in record)
             {
                 Console.WriteLine("*****************************");
                 Console.WriteLine($"Result Of {Key.Key} Exam");
                 foreach (var student in Key.Value)
-                    Console.WriteLine(student.Name + " " + student.Exam + " " + student.PERCENTAGE + "%");
+                    Console.WriteLine(student.name + " " + student.exam + " " + student.percentage + "%");
             }
         }
 
@@ -55,7 +55,7 @@ namespace Calculate_Result
         {
             List<Student> Students = new List<Student>();
 
-            int Choice = 0;
+            int choice = 0;
             do
             {
                 Console.WriteLine("***********************");
@@ -66,7 +66,7 @@ namespace Calculate_Result
                 Console.Write("Enter Your Choice: ");
                 Choice = Convert.ToInt32(Console.ReadLine());
 
-                switch (Choice)
+                switch (choice)
                 {
                     case 1:
                         AddStudent(Students);
@@ -75,13 +75,14 @@ namespace Calculate_Result
                         DisplayStudent(Students);
                         break;
                     case 0:
-                        Console.WriteLine("Thank You...!!");
+                        Console.WriteLine("Thank You");
                         break;
                     default:
-                        Console.WriteLine("Invalid Choice!!");
+                        Console.WriteLine("Invalid Choice");
                         break;
                 }
-            } while (Choice != 0);
+            } while (choice != 0);
+            
         }
     }
 }
