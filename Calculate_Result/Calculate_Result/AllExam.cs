@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace Calculate_Result
@@ -14,8 +14,8 @@ namespace Calculate_Result
                 Console.Write($"Enter Marks Of {i + 1} Subject outof(100) => ");
                 subjectArr[i] = Convert.ToInt32(Console.ReadLine());
             }
-            int Total = subjectArr.Sum();
-            double percentage = Total / 5;
+            int total = subjectArr.Sum();
+            double percentage = otal / 5;
             return percentage;
         }
     }
