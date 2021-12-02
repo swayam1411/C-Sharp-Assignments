@@ -3,42 +3,42 @@ using System.Linq;
 
 namespace Calculate_Result
 {
-    public class SSCResult : IResultInterface
+    public class SscResult : IResultInterface
     {
         public double CalculateResult()
         {
-            int[] SubjectArr = new int[5];
+            int[] subjectArr = new int[5];
 
-            for (int i = 0; i < SubjectArr.Length; i++)
+            for (int i = 0; i < subjectArr.Length; i++)
             {
                 Console.Write($"Enter Marks Of {i + 1} Subject outof(100) => ");
-                SubjectArr[i] = Convert.ToInt32(Console.ReadLine());
+                subjectArr[i] = Convert.ToInt32(Console.ReadLine());
             }
-            int Total = SubjectArr.Sum();
-            double PERCENTAGE = Total / 5;
-            return PERCENTAGE;
+            int Total = subjectArr.Sum();
+            double percentage = Total / 5;
+            return percentage;
         }
     }
 
-    public class NIITResult : IResultInterface
+    public class NiitResult : IResultInterface
     {
         public double CalculateResult()
         {
             Console.Write("Enter CGPA Of NIIT outof(10) => ");
-            double CGPA = Convert.ToDouble(Console.ReadLine());
-            double PERCENTAGE = CGPA * 9.5;
-            return PERCENTAGE;
+            double cgpa = Convert.ToDouble(Console.ReadLine());
+            double percentage = cgpa * 9.5;
+            return percentage;
         }
     }
 
-    public class IITResult : IResultInterface
+    public class IitResult : IResultInterface
     {
         public double CalculateResult()
         {
             Console.Write("Enter CGPA Of IIT outof(10) => ");
-            double CGPA = Convert.ToDouble(Console.ReadLine());
-            double PERCENTAGE = CGPA * 10;
-            return PERCENTAGE;
+            double cgpa = Convert.ToDouble(Console.ReadLine());
+            double percentage = cgpa * 10;
+            return percentage;
         }
     }
 
