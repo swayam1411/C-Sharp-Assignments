@@ -64,7 +64,7 @@ namespace Calculate_Result
                 Console.WriteLine("0. Exit");
 
                 Console.Write("Enter Your Choice: ");
-                Choice = Convert.ToInt32(Console.ReadLine());
+                choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
                 {
