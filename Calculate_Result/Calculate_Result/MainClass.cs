@@ -8,7 +8,7 @@ namespace Calculate_Result
     {
         public static void AddStudent(List<Student> Students)
         {
-            IResultInterface IObject;
+            IResultInterface iObject;
             
             Console.Write("Enter Student Name => ");
             string name = Console.ReadLine();
@@ -16,20 +16,20 @@ namespace Calculate_Result
             string exam = Console.ReadLine();
             if (exam == "SSC")
             {
-                IObject = new SscResult();
-                double percentage = IObject.CalculateResult();
+                iObject = new SSCResult();
+                double percentage = iObject.CalculateResult();
                 Students.Add(new Student(name, exam, percentage));
             }
             else if (exam == "NIIT")
             {
-                IObject = new NiitResult();
-                double percentage = IObject.CalculateResult();
+                iObject = new NIITResult();
+                double percentage = iObject.CalculateResult();
                 Students.Add(new Student(name, exam, percentage));
             }
             else if (exam == "IIT")
             {
-                IObject = new IitResult();
-                double percentage = IObject.CalculateResult();
+                iObject = new IITResult();
+                double percentage = iObject.CalculateResult();
                 Students.Add(new Student(name, exam, percentage));
             }
         }
