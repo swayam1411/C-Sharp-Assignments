@@ -14,9 +14,7 @@ namespace Calculate_Result
                 Console.Write($"Enter Marks Of {i + 1} Subject outof(100) => ");
                 subjectArr[i] = Convert.ToInt32(Console.ReadLine());
             }
-            int total = subjectArr.Sum();
-            double percentage = total / 5;
-            return percentage;
+            return subjectArr.Sum() / 5;
         }
     }
 
@@ -26,8 +24,7 @@ namespace Calculate_Result
         {
             Console.Write("Enter CGPA Of NIIT outof(10) => ");
             double cgpa = Convert.ToDouble(Console.ReadLine());
-            double percentage = cgpa * 9.5;
-            return percentage;
+            return cgpa * 9.5;
         }
     }
 
@@ -37,8 +34,7 @@ namespace Calculate_Result
         {
             Console.Write("Enter CGPA Of IIT outof(10) => ");
             double cgpa = Convert.ToDouble(Console.ReadLine());
-            double percentage = cgpa * 10;
-            return percentage;
+            return cgpa * 10;
         }
     }
 
