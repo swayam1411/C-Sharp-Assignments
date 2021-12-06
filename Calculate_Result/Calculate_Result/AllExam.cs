@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Calculate_Result
 {
-    public class SscResult : IResultInterface
+    public class SSCResult : IResultInterface
     {
         public double CalculateResult()
         {
@@ -20,7 +20,7 @@ namespace Calculate_Result
         }
     }
 
-    public class NiitResult : IResultInterface
+    public class NIITResult : IResultInterface
     {
         public double CalculateResult()
         {
@@ -31,7 +31,7 @@ namespace Calculate_Result
         }
     }
 
-    public class IitResult : IResultInterface
+    public class IITResult : IResultInterface
     {
         public double CalculateResult()
         {
